@@ -1,0 +1,61 @@
+{
+  "name": "nuxt-ghost",
+  "version": "1.0.0",
+  "description": "Nuxt Ghost Module",
+  "author": {
+    "name": "Gomah <hi@gomah.fr>"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "nuxtjs",
+    "nuxt.js",
+    "ghost",
+    "ghost-content-api",
+    "nuxt-ghost"
+  ],
+  "typings": "types/index.d.ts",
+  "main": "lib/module.js",
+  "files": [
+    "lib",
+    "types/*.d.ts"
+  ],
+  "repository": "https://github.com/Gomah/nuxt-ghost",
+  "homepage": "https://github.com/Gomah/nuxt-ghost",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt example",
+    "test:system": "NODE_ENV=test jest --testRegex \"/test/system/(.+)\\.test\\.ts$\"",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn test:lint && NODE_ENV=test jest",
+    "test:lint": "eslint --ext .js, lib/module.js"
+  },
+  "dependencies": {
+    "@tryghost/content-api": "^1.3.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@nuxt/types": "^0.5.9",
+    "@types/jest": "^24.0.24",
+    "@types/jsdom": "^12.2.4",
+    "@types/node": "^13.1.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.1.1",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "nuxt": "^2.11.0",
+    "nuxt-buefy": "^0.3.19",
+    "prettier": "^1.19.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
+    "standard-version": "^7.0.1"
+  }
+}
