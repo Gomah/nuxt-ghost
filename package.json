@@ -28,6 +28,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxt example",
+    "generate": "nuxt generate example",
     "test:system": "NODE_ENV=test jest --testRegex \"/test/system/(.+)\\.test\\.ts$\"",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn test:lint && NODE_ENV=test jest",
