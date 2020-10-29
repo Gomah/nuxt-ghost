@@ -35,28 +35,28 @@
     "test:lint": "eslint --ext .js, lib/module.js"
   },
   "dependencies": {
-    "@tryghost/content-api": "^1.4.4"
+    "@tryghost/content-api": "^1.4.7"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@nuxt/types": "^2.14.1",
-    "@types/jest": "^25.2.1",
-    "@types/jsdom": "^16.2.1",
-    "@types/node": "^13.11.1",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@nuxt/types": "^2.14.7",
+    "@types/jest": "^26.0.15",
+    "@types/jsdom": "^16.2.5",
+    "@types/node": "^14.14.6",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^25.3.0",
-    "eslint": "^7.6.0",
-    "eslint-config-prettier": "^6.11.0",
+    "babel-jest": "^26.6.1",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-vue": "^6.2.2",
-    "husky": "^4.2.5",
-    "jest": "^25.3.0",
-    "nuxt": "^2.14.1",
-    "nuxt-buefy": "^0.3.31",
-    "prettier": "^2.0.5",
+    "eslint-plugin-vue": "^7.1.0",
+    "husky": "^4.3.0",
+    "jest": "^26.6.1",
+    "nuxt": "^2.14.7",
+    "nuxt-buefy": "^0.4.3",
+    "prettier": "^2.1.2",
     "request": "^2.88.2",
-    "request-promise-native": "^1.0.8",
-    "standard-version": "^7.1.0"
+    "request-promise-native": "^1.0.9",
+    "standard-version": "^9.0.0"
   }
 }
