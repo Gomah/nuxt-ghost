@@ -1,13 +1,6 @@
+import { GhostAPI } from '@tryghost/content-api';
 import Vue from 'vue';
 import './vuex';
-
-interface GhostAPI {
-  posts: any;
-  authors: any;
-  tags: any;
-  pages: any;
-  settings: any;
-}
 
 declare module '@nuxt/vue-app' {
   interface Context {
