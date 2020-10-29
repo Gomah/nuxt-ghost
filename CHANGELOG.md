@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/Gomah/nuxt-ghost/compare/v1.0.5...v1.0.6) (2020-10-29)
+
+
+### Chore
+
+* **deps:** update @tryghost/content-api to 1.4.4 ([67f6190](https://github.com/Gomah/nuxt-ghost/commit/67f61905b950b6bb64289d9141f6db4a334286ef))
+* **deps:** upgrade dependencies ([84b75d6](https://github.com/Gomah/nuxt-ghost/commit/84b75d65feab7939eaf7464f2d59965858f50643))
+* **deps:** upgrade dependencies ([166816e](https://github.com/Gomah/nuxt-ghost/commit/166816e0a2d0d47308b1061b4f6d93aedf67dab8))
+
+
+### Internal
+
+* use @babel/preset-env preset ([e3ddf3b](https://github.com/Gomah/nuxt-ghost/commit/e3ddf3b0247a0035b9fd165e2efb1e9f65f042a0))
+
 ### [1.0.5](https://github.com/Gomah/nuxt-ghost/compare/v1.0.4...v1.0.5) (2020-04-17)
 
 
