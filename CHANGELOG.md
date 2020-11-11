@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.8](https://github.com/Gomah/nuxt-ghost/compare/v1.0.7...v1.0.8) (2020-11-11)
+
+
+### Chore
+
+* **deps:** update @tryghost/content-api ([4e197ce](https://github.com/Gomah/nuxt-ghost/commit/4e197cebb12f5987f6c22c373fd7108177fb4433))
+* **example:** use typescript ([3fa0815](https://github.com/Gomah/nuxt-ghost/commit/3fa0815d367d597163000d3bd6aa9c023cdd4104))
+
 ### [1.0.7](https://github.com/Gomah/nuxt-ghost/compare/v1.0.6...v1.0.7) (2020-10-29)
 
 ### [1.0.6](https://github.com/Gomah/nuxt-ghost/compare/v1.0.5...v1.0.6) (2020-10-29)
