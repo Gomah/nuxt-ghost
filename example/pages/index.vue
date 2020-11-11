@@ -30,8 +30,9 @@
   </section>
 </template>
 
-<script>
-import Card from '../components/card';
+<script lang="ts">
+import { Context } from '@nuxt/types';
+import Card from '../components/card.vue';
 
 export default {
   components: {
@@ -48,7 +49,7 @@ export default {
     };
   },
 
-  async asyncData({ app, params, store }) {
+  async asyncData({ app, params, store }: Context) {
     const page = params.page ? parseInt(params.page, 10) : 1;
 
     const [posts] = await Promise.all([
@@ -67,7 +68,7 @@ export default {
   },
 
   methods: {
-    handlePagination(value) {
+    handlePagination(value: number) {
       const path = value === 1 ? '/' : `/page/${value}`;
       this.$router.push(path);
     },

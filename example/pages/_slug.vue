@@ -1,5 +1,5 @@
 <template>
-  <section class=" section">
+  <section class="section">
     <article class="post">
       <div class="container">
         <div class="columns is-multiline is-centered">
@@ -17,7 +17,9 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
+import { Context } from '@nuxt/types';
+
 export default {
   data() {
     return {
@@ -25,12 +27,12 @@ export default {
     };
   },
 
-  async asyncData({ app, params }) {
+  async asyncData({ app, params }: Context) {
     const post = await app.$ghost.posts.read(
       {
         slug: params.slug,
       },
-      { include: 'tags,meta' }
+      { include: 'tags' }
     );
 
     return {

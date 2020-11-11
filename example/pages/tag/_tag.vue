@@ -30,8 +30,9 @@
   </section>
 </template>
 
-<script>
-import Card from '../../components/card';
+<script lang="ts">
+import { Context } from '@nuxt/types';
+import Card from '../../components/card.vue';
 
 export default {
   components: {
