@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.10](https://github.com/Gomah/nuxt-ghost/compare/v1.0.9...v1.0.10) (2021-01-10)
+
+
+### Chore
+
+* **deps:** upgrade dependencies ([c9482c5](https://github.com/Gomah/nuxt-ghost/commit/c9482c5bb4797c842cf082ce2b81dcd878951796))
+
 ### [1.0.9](https://github.com/Gomah/nuxt-ghost/compare/v1.0.8...v1.0.9) (2020-12-20)
 
 
