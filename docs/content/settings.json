@@ -1,0 +1,11 @@
+{
+  "title": "Nuxt Ghost",
+  "url": "https://nuxt-ghost.vercel.app/",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "Gomah/nuxt-ghost",
+  "twitter": "@gomah",
+  "defaultBranch": "master"
+}

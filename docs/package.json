@@ -1,0 +1,18 @@
+{
+  "name": "nuxt-ghost-docs",
+  "version": "1.0.12",
+  "description": "Docs for nuxt-ghost",
+  "private": true,
+  "author": {
+    "name": "Gomah <hi@gomah.fr>"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.9.0",
+    "nuxt": "^2.14.12"
+  }
+}

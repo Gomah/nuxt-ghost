@@ -1,3 +1,5 @@
+[![nuxt-ghost](https://nuxt-ghost.vercel.app/preview.png)](https://nuxt-ghost.vercel.app)
+
 # 👻 Ghost Module
 
 [![circleci][circleci-src]][circleci-href]
@@ -54,7 +56,7 @@ module.exports = {
 ### Hook for generating ghost routes (nuxt generate & sitemap)
 
 ```ts
-export default async ctx => {
+export default async (ctx) => {
   const config = {
     blogPrefix: '',
     tagPrefix: 'tag',
@@ -70,7 +72,7 @@ export default async ctx => {
     ]);
 
     // Post routes
-    const postsRoutes = posts.map(post => `${config.blogPrefix}/${post.slug}`);
+    const postsRoutes = posts.map((post) => `${config.blogPrefix}/${post.slug}`);
 
     // Blog routes
     const blogPagesRoutes = [];
