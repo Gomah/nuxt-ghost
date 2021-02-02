@@ -13,6 +13,8 @@
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
+[🌎 **Demo**](https://nuxt-ghost.netlify.com)
+
 ## Setup
 
 Install with yarn:
