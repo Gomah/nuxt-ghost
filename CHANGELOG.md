@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.15](https://github.com/Gomah/nuxt-ghost/compare/v1.0.14...v1.0.15) (2021-03-07)
+
+
+### Chore
+
+* **deps:** upgrade dependencies ([27d5999](https://github.com/Gomah/nuxt-ghost/commit/27d59996587f74ffac87391fe31756ec2c035af7))
+* fix eslint config ([19badb5](https://github.com/Gomah/nuxt-ghost/commit/19badb5f4b487834eab0794a5def949ebf773746))
+
 ### [1.0.14](https://github.com/Gomah/nuxt-ghost/compare/v1.0.13...v1.0.14) (2021-03-04)
 
 
