@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/Gomah/nuxt-ghost/compare/v1.0.17...v2.0.0) (2021-04-09)
+
+
+### Features
+
+* **core:** use v4 by default ([e96b0db](https://github.com/Gomah/nuxt-ghost/commit/e96b0db82ed26b235c1f063e2a3f681346f36deb))
+
+
+### Documentation
+
+* update docs for v4 ([579463c](https://github.com/Gomah/nuxt-ghost/commit/579463cddcbe9816f5c9a3dfc3c0ec398c982aac))
+
 ### [1.0.17](https://github.com/Gomah/nuxt-ghost/compare/v1.0.16...v1.0.17) (2021-04-09)
 
 
