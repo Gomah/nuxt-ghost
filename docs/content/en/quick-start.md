@@ -47,9 +47,9 @@ module.exports = {
 
     /**
      * Version
-     * default: v3
+     * default: v4
      */
-    version: 'v3',
+    version: 'v4',
   },
 };
 ```

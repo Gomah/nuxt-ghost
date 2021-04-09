@@ -9,7 +9,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-1a2b34.svg?style=flat-square)](https://prettier.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-> Easy <a href="https://ghost.org/docs/api/v3/javascript/content/">Ghost</a> content API integration with Nuxt.js.
+> Easy <a href="https://ghost.org/docs/api/v4/javascript/content/">Ghost</a> content API integration with Nuxt.js.
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -48,9 +48,9 @@ module.exports = {
 
     /**
      * Version
-     * default: v3
+     * default: v4
      */
-    version: 'v3',
+    version: 'v4',
   },
 };
 ```

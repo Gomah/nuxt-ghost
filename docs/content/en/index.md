@@ -12,7 +12,7 @@ features:
 <img src="/preview.png" class="light-img" />
 <img src="/preview-dark.png" class="dark-img" />
 
-Easy <a href="https://ghost.org/docs/api/v3/javascript/content/">Ghost</a> content API integration with [Nuxt.js](https://nuxtjs.org).
+Easy <a href="https://ghost.org/docs/api/v4/javascript/content/">Ghost</a> content API integration with [Nuxt.js](https://nuxtjs.org).
 
 ## Features
 
