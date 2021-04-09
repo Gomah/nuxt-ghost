@@ -40,7 +40,7 @@ describe('Nuxt Ghost Module', () => {
 
   test('SSR', async () => {
     const html = await get('/');
-    expect(html).toContain('Welcome to Ghost');
+    expect(html).toContain('Start here for a quick overview of everything you need to know');
   });
 
   test('CSR', async () => {
@@ -48,7 +48,7 @@ describe('Nuxt Ghost Module', () => {
 
     window.onNuxtReady(() => {
       const html = window.document.body.innerHTML;
-      expect(html).toContain('Welcome to Ghost');
+      expect(html).toContain('Start here for a quick overview of everything you need to know');
     });
   });
 });
