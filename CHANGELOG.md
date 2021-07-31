@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.8](https://github.com/Gomah/nuxt-ghost/compare/v2.0.7...v2.0.8) (2021-07-31)
+
+
+### Chore
+
+* export GhostContentAPI ([8335f4e](https://github.com/Gomah/nuxt-ghost/commit/8335f4e9eb1ea2f302e33095ebf9593918c674ed))
+
+
+### Documentation
+
+* adjust generate example ([bb56f1f](https://github.com/Gomah/nuxt-ghost/commit/bb56f1f07a0abec445857e31fd81b14b379efb0b))
+
 ### [2.0.7](https://github.com/Gomah/nuxt-ghost/compare/v2.0.6...v2.0.7) (2021-07-31)
 
 
