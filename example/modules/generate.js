@@ -1,17 +1,4 @@
----
-title: Nuxt Generate & Sitemap
-description: 'Easy Ghost content API integration with Nuxt.js'
-position: 3
-category: 'Helpers'
----
-
-### Hook for generating ghost routes (nuxt generate & sitemap)
-
-Create another module file in `modules/`:
-
-```ts
-// modules/sitemap.js
-import { GhostContentAPI } from 'nuxt-ghost';
+import { GhostContentAPI } from '../../lib/module';
 
 export default async function (ctx) {
   const config = {
@@ -77,30 +64,3 @@ export default async function (ctx) {
     }
   });
 }
-```
-
-Then add it to the nuxt.config:
-
-```ts
-module.exports = {
-  modules: ['nuxt-ghost', './modules/sitemap.js'],
-
-  ghost: {
-    /**
-     * Your Ghost url
-     */
-    url: 'https://demo.ghost.io/ghost',
-
-    /**
-     * Your content api key
-     */
-    key: '22444f78447824223cefc48062',
-
-    /**
-     * Version
-     * default: v4
-     */
-    version: 'v4',
-  },
-};
-```

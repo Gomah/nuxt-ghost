@@ -57,20 +57,29 @@ module.exports = {
 
 ### Hook for generating ghost routes (nuxt generate & sitemap)
 
+Create another module file in `modules/`:
+
 ```ts
-export default async (ctx) => {
+// modules/sitemap.js
+import { GhostContentAPI } from 'nuxt-ghost';
+
+export default async function (ctx) {
   const config = {
     blogPrefix: '',
     tagPrefix: 'tag',
     perPage: 3,
   };
 
-  this.nuxt.hook('generate:before', async (nuxt, generateOptions) => {
+  this.nuxt.hook('generate:before', async (nuxt, generateOptions, ...oi) => {
+    const $ghost = new GhostContentAPI({
+      ...nuxt.options.ghost,
+    });
+
     const [posts, tags] = await Promise.all([
-      this.$ghost.posts.browse({
+      $ghost.posts.browse({
         limit: 'all',
       }),
-      this.$ghost.tags.browse({ order: 'slug ASC', limit: 'all', include: 'count.posts' }),
+      $ghost.tags.browse({ order: 'slug ASC', limit: 'all', include: 'count.posts' }),
     ]);
 
     // Post routes
@@ -117,6 +126,32 @@ export default async (ctx) => {
       });
     }
   });
+}
+```
+
+Then add it to the nuxt.config:
+
+```ts
+module.exports = {
+  modules: ['nuxt-ghost', './modules/sitemap.js'],
+
+  ghost: {
+    /**
+     * Your Ghost url
+     */
+    url: 'https://demo.ghost.io/ghost',
+
+    /**
+     * Your content api key
+     */
+    key: '22444f78447824223cefc48062',
+
+    /**
+     * Version
+     * default: v4
+     */
+    version: 'v4',
+  },
 };
 ```
 

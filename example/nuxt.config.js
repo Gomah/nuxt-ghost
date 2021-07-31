@@ -6,6 +6,7 @@ module.exports = {
   render: {
     resourceHints: false,
   },
+  target: 'static',
   buildModules: [
     [
       '@nuxt/typescript-build',
@@ -15,7 +16,7 @@ module.exports = {
       },
     ],
   ],
-  modules: ['../lib/module', 'nuxt-buefy'],
+  modules: ['../lib/module', './modules/generate', 'nuxt-buefy'],
   ghost: {
     url: 'https://demo.ghost.io',
     key: '22444f78447824223cefc48062',
