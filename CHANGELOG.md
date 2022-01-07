@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.14](https://github.com/Gomah/nuxt-ghost/compare/v2.0.13...v2.0.14) (2022-01-07)
+
 ### [2.0.13](https://github.com/Gomah/nuxt-ghost/compare/v2.0.12...v2.0.13) (2021-11-22)
 
 
