@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.4](https://github.com/Gomah/nuxt-ghost/compare/v2.1.3...v2.1.4) (2022-08-29)
+
+
+### Chore
+
+* **deps:** bump @tryghost/content-api to 1.11.1 ([1807a8b](https://github.com/Gomah/nuxt-ghost/commit/1807a8b55c9b3b97ccdfdf581f01a17addead79b))
+
 ### [2.1.3](https://github.com/Gomah/nuxt-ghost/compare/v2.1.2...v2.1.3) (2022-06-18)
 
 
